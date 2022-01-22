@@ -1,0 +1,706 @@
+* Coriolis Structural SPICE Driver
+* Generated on Jan 20, 2022, 18:15
+* Cell/Subckt "arm_chip_r".
+* 
+* INTERF     0  vsspad.
+* INTERF     1  vss.
+* INTERF     2  vddpad.
+* INTERF     3  vdd.
+* INTERF     4  reset_pad.
+* INTERF     5  mem_stw_pad.
+* INTERF     6  mem_stb_pad.
+* INTERF     7  mem_load_pad.
+* INTERF     8  mem_data_(9).
+* INTERF     9  mem_data_(8).
+* INTERF    10  mem_data_(7).
+* INTERF    11  mem_data_(6).
+* INTERF    12  mem_data_(5).
+* INTERF    13  mem_data_(4).
+* INTERF    14  mem_data_(31).
+* INTERF    15  mem_data_(30).
+* INTERF    16  mem_data_(3).
+* INTERF    17  mem_data_(29).
+* INTERF    18  mem_data_(28).
+* INTERF    19  mem_data_(27).
+* INTERF    20  mem_data_(26).
+* INTERF    21  mem_data_(25).
+* INTERF    22  mem_data_(24).
+* INTERF    23  mem_data_(23).
+* INTERF    24  mem_data_(22).
+* INTERF    25  mem_data_(21).
+* INTERF    26  mem_data_(20).
+* INTERF    27  mem_data_(2).
+* INTERF    28  mem_data_(19).
+* INTERF    29  mem_data_(18).
+* INTERF    30  mem_data_(17).
+* INTERF    31  mem_data_(16).
+* INTERF    32  mem_data_(15).
+* INTERF    33  mem_data_(14).
+* INTERF    34  mem_data_(13).
+* INTERF    35  mem_data_(12).
+* INTERF    36  mem_data_(11).
+* INTERF    37  mem_data_(10).
+* INTERF    38  mem_data_(1).
+* INTERF    39  mem_data_(0).
+* INTERF    40  mem_adr_(9).
+* INTERF    41  mem_adr_(8).
+* INTERF    42  mem_adr_(7).
+* INTERF    43  mem_adr_(6).
+* INTERF    44  mem_adr_(5).
+* INTERF    45  mem_adr_(4).
+* INTERF    46  mem_adr_(31).
+* INTERF    47  mem_adr_(30).
+* INTERF    48  mem_adr_(3).
+* INTERF    49  mem_adr_(29).
+* INTERF    50  mem_adr_(28).
+* INTERF    51  mem_adr_(27).
+* INTERF    52  mem_adr_(26).
+* INTERF    53  mem_adr_(25).
+* INTERF    54  mem_adr_(24).
+* INTERF    55  mem_adr_(23).
+* INTERF    56  mem_adr_(22).
+* INTERF    57  mem_adr_(21).
+* INTERF    58  mem_adr_(20).
+* INTERF    59  mem_adr_(2).
+* INTERF    60  mem_adr_(19).
+* INTERF    61  mem_adr_(18).
+* INTERF    62  mem_adr_(17).
+* INTERF    63  mem_adr_(16).
+* INTERF    64  mem_adr_(15).
+* INTERF    65  mem_adr_(14).
+* INTERF    66  mem_adr_(13).
+* INTERF    67  mem_adr_(12).
+* INTERF    68  mem_adr_(11).
+* INTERF    69  mem_adr_(10).
+* INTERF    70  mem_adr_(1).
+* INTERF    71  mem_adr_(0).
+* INTERF   239  if_adr_valid_pad.
+* INTERF   240  if_adr_(9).
+* INTERF   241  if_adr_(8).
+* INTERF   242  if_adr_(7).
+* INTERF   243  if_adr_(6).
+* INTERF   244  if_adr_(5).
+* INTERF   245  if_adr_(4).
+* INTERF   246  if_adr_(31).
+* INTERF   247  if_adr_(30).
+* INTERF   248  if_adr_(3).
+* INTERF   249  if_adr_(29).
+* INTERF   250  if_adr_(28).
+* INTERF   251  if_adr_(27).
+* INTERF   252  if_adr_(26).
+* INTERF   253  if_adr_(25).
+* INTERF   254  if_adr_(24).
+* INTERF   255  if_adr_(23).
+* INTERF   256  if_adr_(22).
+* INTERF   257  if_adr_(21).
+* INTERF   258  if_adr_(20).
+* INTERF   259  if_adr_(2).
+* INTERF   260  if_adr_(19).
+* INTERF   261  if_adr_(18).
+* INTERF   262  if_adr_(17).
+* INTERF   263  if_adr_(16).
+* INTERF   264  if_adr_(15).
+* INTERF   265  if_adr_(14).
+* INTERF   266  if_adr_(13).
+* INTERF   267  if_adr_(12).
+* INTERF   268  if_adr_(11).
+* INTERF   269  if_adr_(10).
+* INTERF   270  if_adr_(1).
+* INTERF   271  if_adr_(0).
+* INTERF   272  ic_stall_pad.
+* INTERF   273  ic_inst_(9).
+* INTERF   274  ic_inst_(8).
+* INTERF   275  ic_inst_(7).
+* INTERF   276  ic_inst_(6).
+* INTERF   277  ic_inst_(5).
+* INTERF   278  ic_inst_(4).
+* INTERF   279  ic_inst_(31).
+* INTERF   280  ic_inst_(30).
+* INTERF   281  ic_inst_(3).
+* INTERF   282  ic_inst_(29).
+* INTERF   283  ic_inst_(28).
+* INTERF   284  ic_inst_(27).
+* INTERF   285  ic_inst_(26).
+* INTERF   286  ic_inst_(25).
+* INTERF   287  ic_inst_(24).
+* INTERF   288  ic_inst_(23).
+* INTERF   289  ic_inst_(22).
+* INTERF   290  ic_inst_(21).
+* INTERF   291  ic_inst_(20).
+* INTERF   292  ic_inst_(2).
+* INTERF   293  ic_inst_(19).
+* INTERF   294  ic_inst_(18).
+* INTERF   295  ic_inst_(17).
+* INTERF   296  ic_inst_(16).
+* INTERF   297  ic_inst_(15).
+* INTERF   298  ic_inst_(14).
+* INTERF   299  ic_inst_(13).
+* INTERF   300  ic_inst_(12).
+* INTERF   301  ic_inst_(11).
+* INTERF   302  ic_inst_(10).
+* INTERF   303  ic_inst_(1).
+* INTERF   304  ic_inst_(0).
+* INTERF   305  dc_stall_pad.
+* INTERF   306  dc_data_(9).
+* INTERF   307  dc_data_(8).
+* INTERF   308  dc_data_(7).
+* INTERF   309  dc_data_(6).
+* INTERF   310  dc_data_(5).
+* INTERF   311  dc_data_(4).
+* INTERF   312  dc_data_(31).
+* INTERF   313  dc_data_(30).
+* INTERF   314  dc_data_(3).
+* INTERF   315  dc_data_(29).
+* INTERF   316  dc_data_(28).
+* INTERF   317  dc_data_(27).
+* INTERF   318  dc_data_(26).
+* INTERF   319  dc_data_(25).
+* INTERF   320  dc_data_(24).
+* INTERF   321  dc_data_(23).
+* INTERF   322  dc_data_(22).
+* INTERF   323  dc_data_(21).
+* INTERF   324  dc_data_(20).
+* INTERF   325  dc_data_(2).
+* INTERF   326  dc_data_(19).
+* INTERF   327  dc_data_(18).
+* INTERF   328  dc_data_(17).
+* INTERF   329  dc_data_(16).
+* INTERF   330  dc_data_(15).
+* INTERF   331  dc_data_(14).
+* INTERF   332  dc_data_(13).
+* INTERF   333  dc_data_(12).
+* INTERF   334  dc_data_(11).
+* INTERF   335  dc_data_(10).
+* INTERF   336  dc_data_(1).
+* INTERF   337  dc_data_(0).
+* INTERF   339  ck_pad.
+
+* Terminal models (aka standard cells) used througout all the hierarchy.
+.include pi_px.spi
+.include po_px.spi
+.include pvddick_px.spi
+.include pck_px.spi
+.include corona_cts_r.spi
+.include pvsseck_px.spi
+.include pvssick_px.spi
+.include pvddeck_px.spi
+
+* Non-terminal models (part of the user's design hierarchy).
+
+.subckt arm_chip_r 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 269 270 271 272 273 274 275 276 277 278 279 280 281 282 283 284 285 286 287 288 289 290 291 292 293 294 295 296 297 298 299 300 301 302 303 304 305 306 307 308 309 310 311 312 313 314 315 316 317 318 319 320 321 322 323 324 325 326 327 328 329 330 331 332 333 334 335 336 337 339
+* NET     0  vsspad.
+* NET     1  vss.
+* NET     2  vddpad.
+* NET     3  vdd.
+* NET     4  reset_pad.
+* NET     5  mem_stw_pad.
+* NET     6  mem_stb_pad.
+* NET     7  mem_load_pad.
+* NET     8  mem_data_(9).
+* NET     9  mem_data_(8).
+* NET    10  mem_data_(7).
+* NET    11  mem_data_(6).
+* NET    12  mem_data_(5).
+* NET    13  mem_data_(4).
+* NET    14  mem_data_(31).
+* NET    15  mem_data_(30).
+* NET    16  mem_data_(3).
+* NET    17  mem_data_(29).
+* NET    18  mem_data_(28).
+* NET    19  mem_data_(27).
+* NET    20  mem_data_(26).
+* NET    21  mem_data_(25).
+* NET    22  mem_data_(24).
+* NET    23  mem_data_(23).
+* NET    24  mem_data_(22).
+* NET    25  mem_data_(21).
+* NET    26  mem_data_(20).
+* NET    27  mem_data_(2).
+* NET    28  mem_data_(19).
+* NET    29  mem_data_(18).
+* NET    30  mem_data_(17).
+* NET    31  mem_data_(16).
+* NET    32  mem_data_(15).
+* NET    33  mem_data_(14).
+* NET    34  mem_data_(13).
+* NET    35  mem_data_(12).
+* NET    36  mem_data_(11).
+* NET    37  mem_data_(10).
+* NET    38  mem_data_(1).
+* NET    39  mem_data_(0).
+* NET    40  mem_adr_(9).
+* NET    41  mem_adr_(8).
+* NET    42  mem_adr_(7).
+* NET    43  mem_adr_(6).
+* NET    44  mem_adr_(5).
+* NET    45  mem_adr_(4).
+* NET    46  mem_adr_(31).
+* NET    47  mem_adr_(30).
+* NET    48  mem_adr_(3).
+* NET    49  mem_adr_(29).
+* NET    50  mem_adr_(28).
+* NET    51  mem_adr_(27).
+* NET    52  mem_adr_(26).
+* NET    53  mem_adr_(25).
+* NET    54  mem_adr_(24).
+* NET    55  mem_adr_(23).
+* NET    56  mem_adr_(22).
+* NET    57  mem_adr_(21).
+* NET    58  mem_adr_(20).
+* NET    59  mem_adr_(2).
+* NET    60  mem_adr_(19).
+* NET    61  mem_adr_(18).
+* NET    62  mem_adr_(17).
+* NET    63  mem_adr_(16).
+* NET    64  mem_adr_(15).
+* NET    65  mem_adr_(14).
+* NET    66  mem_adr_(13).
+* NET    67  mem_adr_(12).
+* NET    68  mem_adr_(11).
+* NET    69  mem_adr_(10).
+* NET    70  mem_adr_(1).
+* NET    71  mem_adr_(0).
+* NET    72  internal_reset_n_from_pad.
+* NET    73  internal_mem_stw_to_pad.
+* NET    74  internal_mem_stb_to_pad.
+* NET    75  internal_mem_load_to_pad.
+* NET    76  internal_mem_data_to_pad(9).
+* NET    77  internal_mem_data_to_pad(8).
+* NET    78  internal_mem_data_to_pad(7).
+* NET    79  internal_mem_data_to_pad(6).
+* NET    80  internal_mem_data_to_pad(5).
+* NET    81  internal_mem_data_to_pad(4).
+* NET    82  internal_mem_data_to_pad(31).
+* NET    83  internal_mem_data_to_pad(30).
+* NET    84  internal_mem_data_to_pad(3).
+* NET    85  internal_mem_data_to_pad(29).
+* NET    86  internal_mem_data_to_pad(28).
+* NET    87  internal_mem_data_to_pad(27).
+* NET    88  internal_mem_data_to_pad(26).
+* NET    89  internal_mem_data_to_pad(25).
+* NET    90  internal_mem_data_to_pad(24).
+* NET    91  internal_mem_data_to_pad(23).
+* NET    92  internal_mem_data_to_pad(22).
+* NET    93  internal_mem_data_to_pad(21).
+* NET    94  internal_mem_data_to_pad(20).
+* NET    95  internal_mem_data_to_pad(2).
+* NET    96  internal_mem_data_to_pad(19).
+* NET    97  internal_mem_data_to_pad(18).
+* NET    98  internal_mem_data_to_pad(17).
+* NET    99  internal_mem_data_to_pad(16).
+* NET   100  internal_mem_data_to_pad(15).
+* NET   101  internal_mem_data_to_pad(14).
+* NET   102  internal_mem_data_to_pad(13).
+* NET   103  internal_mem_data_to_pad(12).
+* NET   104  internal_mem_data_to_pad(11).
+* NET   105  internal_mem_data_to_pad(10).
+* NET   106  internal_mem_data_to_pad(1).
+* NET   107  internal_mem_data_to_pad(0).
+* NET   108  internal_mem_adr_to_pad(9).
+* NET   109  internal_mem_adr_to_pad(8).
+* NET   110  internal_mem_adr_to_pad(7).
+* NET   111  internal_mem_adr_to_pad(6).
+* NET   112  internal_mem_adr_to_pad(5).
+* NET   113  internal_mem_adr_to_pad(4).
+* NET   114  internal_mem_adr_to_pad(31).
+* NET   115  internal_mem_adr_to_pad(30).
+* NET   116  internal_mem_adr_to_pad(3).
+* NET   117  internal_mem_adr_to_pad(29).
+* NET   118  internal_mem_adr_to_pad(28).
+* NET   119  internal_mem_adr_to_pad(27).
+* NET   120  internal_mem_adr_to_pad(26).
+* NET   121  internal_mem_adr_to_pad(25).
+* NET   122  internal_mem_adr_to_pad(24).
+* NET   123  internal_mem_adr_to_pad(23).
+* NET   124  internal_mem_adr_to_pad(22).
+* NET   125  internal_mem_adr_to_pad(21).
+* NET   126  internal_mem_adr_to_pad(20).
+* NET   127  internal_mem_adr_to_pad(2).
+* NET   128  internal_mem_adr_to_pad(19).
+* NET   129  internal_mem_adr_to_pad(18).
+* NET   130  internal_mem_adr_to_pad(17).
+* NET   131  internal_mem_adr_to_pad(16).
+* NET   132  internal_mem_adr_to_pad(15).
+* NET   133  internal_mem_adr_to_pad(14).
+* NET   134  internal_mem_adr_to_pad(13).
+* NET   135  internal_mem_adr_to_pad(12).
+* NET   136  internal_mem_adr_to_pad(11).
+* NET   137  internal_mem_adr_to_pad(10).
+* NET   138  internal_mem_adr_to_pad(1).
+* NET   139  internal_mem_adr_to_pad(0).
+* NET   140  internal_if_adr_valid_to_pad.
+* NET   141  internal_if_adr_to_pad(9).
+* NET   142  internal_if_adr_to_pad(8).
+* NET   143  internal_if_adr_to_pad(7).
+* NET   144  internal_if_adr_to_pad(6).
+* NET   145  internal_if_adr_to_pad(5).
+* NET   146  internal_if_adr_to_pad(4).
+* NET   147  internal_if_adr_to_pad(31).
+* NET   148  internal_if_adr_to_pad(30).
+* NET   149  internal_if_adr_to_pad(3).
+* NET   150  internal_if_adr_to_pad(29).
+* NET   151  internal_if_adr_to_pad(28).
+* NET   152  internal_if_adr_to_pad(27).
+* NET   153  internal_if_adr_to_pad(26).
+* NET   154  internal_if_adr_to_pad(25).
+* NET   155  internal_if_adr_to_pad(24).
+* NET   156  internal_if_adr_to_pad(23).
+* NET   157  internal_if_adr_to_pad(22).
+* NET   158  internal_if_adr_to_pad(21).
+* NET   159  internal_if_adr_to_pad(20).
+* NET   160  internal_if_adr_to_pad(2).
+* NET   161  internal_if_adr_to_pad(19).
+* NET   162  internal_if_adr_to_pad(18).
+* NET   163  internal_if_adr_to_pad(17).
+* NET   164  internal_if_adr_to_pad(16).
+* NET   165  internal_if_adr_to_pad(15).
+* NET   166  internal_if_adr_to_pad(14).
+* NET   167  internal_if_adr_to_pad(13).
+* NET   168  internal_if_adr_to_pad(12).
+* NET   169  internal_if_adr_to_pad(11).
+* NET   170  internal_if_adr_to_pad(10).
+* NET   171  internal_if_adr_to_pad(1).
+* NET   172  internal_if_adr_to_pad(0).
+* NET   173  internal_ic_stall_from_pad.
+* NET   174  internal_ic_inst_from_pad(9).
+* NET   175  internal_ic_inst_from_pad(8).
+* NET   176  internal_ic_inst_from_pad(7).
+* NET   177  internal_ic_inst_from_pad(6).
+* NET   178  internal_ic_inst_from_pad(5).
+* NET   179  internal_ic_inst_from_pad(4).
+* NET   180  internal_ic_inst_from_pad(31).
+* NET   181  internal_ic_inst_from_pad(30).
+* NET   182  internal_ic_inst_from_pad(3).
+* NET   183  internal_ic_inst_from_pad(29).
+* NET   184  internal_ic_inst_from_pad(28).
+* NET   185  internal_ic_inst_from_pad(27).
+* NET   186  internal_ic_inst_from_pad(26).
+* NET   187  internal_ic_inst_from_pad(25).
+* NET   188  internal_ic_inst_from_pad(24).
+* NET   189  internal_ic_inst_from_pad(23).
+* NET   190  internal_ic_inst_from_pad(22).
+* NET   191  internal_ic_inst_from_pad(21).
+* NET   192  internal_ic_inst_from_pad(20).
+* NET   193  internal_ic_inst_from_pad(2).
+* NET   194  internal_ic_inst_from_pad(19).
+* NET   195  internal_ic_inst_from_pad(18).
+* NET   196  internal_ic_inst_from_pad(17).
+* NET   197  internal_ic_inst_from_pad(16).
+* NET   198  internal_ic_inst_from_pad(15).
+* NET   199  internal_ic_inst_from_pad(14).
+* NET   200  internal_ic_inst_from_pad(13).
+* NET   201  internal_ic_inst_from_pad(12).
+* NET   202  internal_ic_inst_from_pad(11).
+* NET   203  internal_ic_inst_from_pad(10).
+* NET   204  internal_ic_inst_from_pad(1).
+* NET   205  internal_ic_inst_from_pad(0).
+* NET   206  internal_dc_stall_from_pad.
+* NET   207  internal_dc_data_from_pad(9).
+* NET   208  internal_dc_data_from_pad(8).
+* NET   209  internal_dc_data_from_pad(7).
+* NET   210  internal_dc_data_from_pad(6).
+* NET   211  internal_dc_data_from_pad(5).
+* NET   212  internal_dc_data_from_pad(4).
+* NET   213  internal_dc_data_from_pad(31).
+* NET   214  internal_dc_data_from_pad(30).
+* NET   215  internal_dc_data_from_pad(3).
+* NET   216  internal_dc_data_from_pad(29).
+* NET   217  internal_dc_data_from_pad(28).
+* NET   218  internal_dc_data_from_pad(27).
+* NET   219  internal_dc_data_from_pad(26).
+* NET   220  internal_dc_data_from_pad(25).
+* NET   221  internal_dc_data_from_pad(24).
+* NET   222  internal_dc_data_from_pad(23).
+* NET   223  internal_dc_data_from_pad(22).
+* NET   224  internal_dc_data_from_pad(21).
+* NET   225  internal_dc_data_from_pad(20).
+* NET   226  internal_dc_data_from_pad(2).
+* NET   227  internal_dc_data_from_pad(19).
+* NET   228  internal_dc_data_from_pad(18).
+* NET   229  internal_dc_data_from_pad(17).
+* NET   230  internal_dc_data_from_pad(16).
+* NET   231  internal_dc_data_from_pad(15).
+* NET   232  internal_dc_data_from_pad(14).
+* NET   233  internal_dc_data_from_pad(13).
+* NET   234  internal_dc_data_from_pad(12).
+* NET   235  internal_dc_data_from_pad(11).
+* NET   236  internal_dc_data_from_pad(10).
+* NET   237  internal_dc_data_from_pad(1).
+* NET   238  internal_dc_data_from_pad(0).
+* NET   239  if_adr_valid_pad.
+* NET   240  if_adr_(9).
+* NET   241  if_adr_(8).
+* NET   242  if_adr_(7).
+* NET   243  if_adr_(6).
+* NET   244  if_adr_(5).
+* NET   245  if_adr_(4).
+* NET   246  if_adr_(31).
+* NET   247  if_adr_(30).
+* NET   248  if_adr_(3).
+* NET   249  if_adr_(29).
+* NET   250  if_adr_(28).
+* NET   251  if_adr_(27).
+* NET   252  if_adr_(26).
+* NET   253  if_adr_(25).
+* NET   254  if_adr_(24).
+* NET   255  if_adr_(23).
+* NET   256  if_adr_(22).
+* NET   257  if_adr_(21).
+* NET   258  if_adr_(20).
+* NET   259  if_adr_(2).
+* NET   260  if_adr_(19).
+* NET   261  if_adr_(18).
+* NET   262  if_adr_(17).
+* NET   263  if_adr_(16).
+* NET   264  if_adr_(15).
+* NET   265  if_adr_(14).
+* NET   266  if_adr_(13).
+* NET   267  if_adr_(12).
+* NET   268  if_adr_(11).
+* NET   269  if_adr_(10).
+* NET   270  if_adr_(1).
+* NET   271  if_adr_(0).
+* NET   272  ic_stall_pad.
+* NET   273  ic_inst_(9).
+* NET   274  ic_inst_(8).
+* NET   275  ic_inst_(7).
+* NET   276  ic_inst_(6).
+* NET   277  ic_inst_(5).
+* NET   278  ic_inst_(4).
+* NET   279  ic_inst_(31).
+* NET   280  ic_inst_(30).
+* NET   281  ic_inst_(3).
+* NET   282  ic_inst_(29).
+* NET   283  ic_inst_(28).
+* NET   284  ic_inst_(27).
+* NET   285  ic_inst_(26).
+* NET   286  ic_inst_(25).
+* NET   287  ic_inst_(24).
+* NET   288  ic_inst_(23).
+* NET   289  ic_inst_(22).
+* NET   290  ic_inst_(21).
+* NET   291  ic_inst_(20).
+* NET   292  ic_inst_(2).
+* NET   293  ic_inst_(19).
+* NET   294  ic_inst_(18).
+* NET   295  ic_inst_(17).
+* NET   296  ic_inst_(16).
+* NET   297  ic_inst_(15).
+* NET   298  ic_inst_(14).
+* NET   299  ic_inst_(13).
+* NET   300  ic_inst_(12).
+* NET   301  ic_inst_(11).
+* NET   302  ic_inst_(10).
+* NET   303  ic_inst_(1).
+* NET   304  ic_inst_(0).
+* NET   305  dc_stall_pad.
+* NET   306  dc_data_(9).
+* NET   307  dc_data_(8).
+* NET   308  dc_data_(7).
+* NET   309  dc_data_(6).
+* NET   310  dc_data_(5).
+* NET   311  dc_data_(4).
+* NET   312  dc_data_(31).
+* NET   313  dc_data_(30).
+* NET   314  dc_data_(3).
+* NET   315  dc_data_(29).
+* NET   316  dc_data_(28).
+* NET   317  dc_data_(27).
+* NET   318  dc_data_(26).
+* NET   319  dc_data_(25).
+* NET   320  dc_data_(24).
+* NET   321  dc_data_(23).
+* NET   322  dc_data_(22).
+* NET   323  dc_data_(21).
+* NET   324  dc_data_(20).
+* NET   325  dc_data_(2).
+* NET   326  dc_data_(19).
+* NET   327  dc_data_(18).
+* NET   328  dc_data_(17).
+* NET   329  dc_data_(16).
+* NET   330  dc_data_(15).
+* NET   331  dc_data_(14).
+* NET   332  dc_data_(13).
+* NET   333  dc_data_(12).
+* NET   334  dc_data_(11).
+* NET   335  dc_data_(10).
+* NET   336  dc_data_(1).
+* NET   337  dc_data_(0).
+* NET   338  ck_ring.
+* NET   339  ck_pad.
+* NET   340  ck_core.
+
+xic_stall_0 1 0 3 2 173 272 338 pi_px
+xif_adr_28 1 0 3 2 250 151 338 po_px
+xif_adr_29 1 0 3 2 249 150 338 po_px
+xreset_0 1 0 3 2 72 4 338 pi_px
+xif_adr_27 1 0 3 2 251 152 338 po_px
+xif_adr_26 1 0 3 2 252 153 338 po_px
+xif_adr_25 1 0 3 2 253 154 338 po_px
+xif_adr_24 1 0 3 2 254 155 338 po_px
+xif_adr_23 1 0 3 2 255 156 338 po_px
+xif_adr_22 1 0 3 2 256 157 338 po_px
+xif_adr_21 1 0 3 2 257 158 338 po_px
+xif_adr_20 1 0 3 2 258 159 338 po_px
+xp_vddick_0 1 0 3 2 340 338 pvddick_px
+xmem_adr_16 1 0 3 2 63 131 338 po_px
+xmem_adr_15 1 0 3 2 64 132 338 po_px
+xmem_adr_14 1 0 3 2 65 133 338 po_px
+xmem_adr_13 1 0 3 2 66 134 338 po_px
+xmem_adr_12 1 0 3 2 67 135 338 po_px
+xmem_adr_11 1 0 3 2 68 136 338 po_px
+xmem_adr_10 1 0 3 2 69 137 338 po_px
+xmem_data_0 1 0 3 2 39 107 338 po_px
+xmem_data_1 1 0 3 2 38 106 338 po_px
+xmem_data_2 1 0 3 2 27 95 338 po_px
+xmem_data_3 1 0 3 2 16 84 338 po_px
+xmem_data_4 1 0 3 2 13 81 338 po_px
+xmem_data_5 1 0 3 2 12 80 338 po_px
+xmem_data_6 1 0 3 2 11 79 338 po_px
+xmem_data_7 1 0 3 2 10 78 338 po_px
+xmem_data_8 1 0 3 2 9 77 338 po_px
+xmem_data_9 1 0 3 2 8 76 338 po_px
+xif_adr_30 1 0 3 2 247 148 338 po_px
+xif_adr_31 1 0 3 2 246 147 338 po_px
+xmem_adr_19 1 0 3 2 60 128 338 po_px
+xmem_adr_18 1 0 3 2 61 129 338 po_px
+xmem_adr_17 1 0 3 2 62 130 338 po_px
+xmem_adr_23 1 0 3 2 55 123 338 po_px
+xmem_adr_22 1 0 3 2 56 124 338 po_px
+xmem_adr_21 1 0 3 2 57 125 338 po_px
+xmem_adr_20 1 0 3 2 58 126 338 po_px
+xdc_data_10 1 0 3 2 236 335 338 pi_px
+xdc_data_11 1 0 3 2 235 334 338 pi_px
+xdc_data_12 1 0 3 2 234 333 338 pi_px
+xdc_data_13 1 0 3 2 233 332 338 pi_px
+xdc_data_14 1 0 3 2 232 331 338 pi_px
+xdc_data_15 1 0 3 2 231 330 338 pi_px
+xdc_data_16 1 0 3 2 230 329 338 pi_px
+xdc_data_17 1 0 3 2 229 328 338 pi_px
+xdc_data_18 1 0 3 2 228 327 338 pi_px
+xdc_data_19 1 0 3 2 227 326 338 pi_px
+xdc_stall_0 1 0 3 2 206 305 338 pi_px
+xmem_adr_29 1 0 3 2 49 117 338 po_px
+xmem_adr_28 1 0 3 2 50 118 338 po_px
+xmem_adr_27 1 0 3 2 51 119 338 po_px
+xmem_adr_26 1 0 3 2 52 120 338 po_px
+xmem_adr_25 1 0 3 2 53 121 338 po_px
+xmem_adr_24 1 0 3 2 54 122 338 po_px
+xmem_adr_30 1 0 3 2 47 115 338 po_px
+xdc_data_20 1 0 3 2 225 324 338 pi_px
+xdc_data_21 1 0 3 2 224 323 338 pi_px
+xdc_data_22 1 0 3 2 223 322 338 pi_px
+xdc_data_23 1 0 3 2 222 321 338 pi_px
+xdc_data_24 1 0 3 2 221 320 338 pi_px
+xdc_data_25 1 0 3 2 220 319 338 pi_px
+xdc_data_26 1 0 3 2 219 318 338 pi_px
+xdc_data_27 1 0 3 2 218 317 338 pi_px
+xdc_data_28 1 0 3 2 217 316 338 pi_px
+xdc_data_29 1 0 3 2 216 315 338 pi_px
+xmem_adr_31 1 0 3 2 46 114 338 po_px
+xdc_data_30 1 0 3 2 214 313 338 pi_px
+xdc_data_31 1 0 3 2 213 312 338 pi_px
+xp_ck_0 1 0 3 2 339 338 pck_px
+xcorona 1 3 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 340 corona_cts_r
+xdc_data_0 1 0 3 2 238 337 338 pi_px
+xdc_data_1 1 0 3 2 237 336 338 pi_px
+xdc_data_2 1 0 3 2 226 325 338 pi_px
+xdc_data_3 1 0 3 2 215 314 338 pi_px
+xdc_data_4 1 0 3 2 212 311 338 pi_px
+xp_ic_inst0 1 0 3 2 205 304 338 pi_px
+xp_ic_inst1 1 0 3 2 204 303 338 pi_px
+xp_ic_inst2 1 0 3 2 193 292 338 pi_px
+xp_ic_inst3 1 0 3 2 182 281 338 pi_px
+xmem_load_0 1 0 3 2 7 75 338 po_px
+xp_ic_inst9 1 0 3 2 174 273 338 pi_px
+xp_ic_inst8 1 0 3 2 175 274 338 pi_px
+xp_ic_inst7 1 0 3 2 176 275 338 pi_px
+xp_ic_inst6 1 0 3 2 177 276 338 pi_px
+xp_ic_inst5 1 0 3 2 178 277 338 pi_px
+xp_ic_inst4 1 0 3 2 179 278 338 pi_px
+xdc_data_5 1 0 3 2 211 310 338 pi_px
+xdc_data_6 1 0 3 2 210 309 338 pi_px
+xdc_data_7 1 0 3 2 209 308 338 pi_px
+xdc_data_8 1 0 3 2 208 307 338 pi_px
+xdc_data_9 1 0 3 2 207 306 338 pi_px
+xif_adr_valid_0 1 0 3 2 239 140 338 po_px
+xmem_data_10 1 0 3 2 37 105 338 po_px
+xmem_data_11 1 0 3 2 36 104 338 po_px
+xmem_data_19 1 0 3 2 28 96 338 po_px
+xmem_data_18 1 0 3 2 29 97 338 po_px
+xmem_data_17 1 0 3 2 30 98 338 po_px
+xmem_data_16 1 0 3 2 31 99 338 po_px
+xmem_data_15 1 0 3 2 32 100 338 po_px
+xmem_data_14 1 0 3 2 33 101 338 po_px
+xmem_data_13 1 0 3 2 34 102 338 po_px
+xmem_data_12 1 0 3 2 35 103 338 po_px
+xp_vsseck_0 1 0 3 2 340 338 pvsseck_px
+xif_adr_9 1 0 3 2 240 141 338 po_px
+xif_adr_8 1 0 3 2 241 142 338 po_px
+xif_adr_7 1 0 3 2 242 143 338 po_px
+xif_adr_6 1 0 3 2 243 144 338 po_px
+xif_adr_5 1 0 3 2 244 145 338 po_px
+xif_adr_4 1 0 3 2 245 146 338 po_px
+xif_adr_3 1 0 3 2 248 149 338 po_px
+xif_adr_2 1 0 3 2 259 160 338 po_px
+xif_adr_1 1 0 3 2 270 171 338 po_px
+xif_adr_0 1 0 3 2 271 172 338 po_px
+xmem_data_29 1 0 3 2 17 85 338 po_px
+xmem_data_28 1 0 3 2 18 86 338 po_px
+xmem_data_27 1 0 3 2 19 87 338 po_px
+xmem_data_26 1 0 3 2 20 88 338 po_px
+xmem_data_25 1 0 3 2 21 89 338 po_px
+xmem_data_24 1 0 3 2 22 90 338 po_px
+xmem_data_23 1 0 3 2 23 91 338 po_px
+xmem_data_22 1 0 3 2 24 92 338 po_px
+xmem_data_21 1 0 3 2 25 93 338 po_px
+xmem_data_20 1 0 3 2 26 94 338 po_px
+xmem_adr_9 1 0 3 2 40 108 338 po_px
+xmem_adr_8 1 0 3 2 41 109 338 po_px
+xmem_adr_7 1 0 3 2 42 110 338 po_px
+xmem_adr_6 1 0 3 2 43 111 338 po_px
+xmem_adr_5 1 0 3 2 44 112 338 po_px
+xmem_adr_4 1 0 3 2 45 113 338 po_px
+xmem_adr_3 1 0 3 2 48 116 338 po_px
+xmem_adr_2 1 0 3 2 59 127 338 po_px
+xmem_adr_1 1 0 3 2 70 138 338 po_px
+xmem_adr_0 1 0 3 2 71 139 338 po_px
+xmem_data_31 1 0 3 2 14 82 338 po_px
+xmem_data_30 1 0 3 2 15 83 338 po_px
+xp_ic_inst19 1 0 3 2 194 293 338 pi_px
+xp_ic_inst18 1 0 3 2 195 294 338 pi_px
+xp_ic_inst17 1 0 3 2 196 295 338 pi_px
+xp_ic_inst16 1 0 3 2 197 296 338 pi_px
+xp_ic_inst15 1 0 3 2 198 297 338 pi_px
+xp_ic_inst14 1 0 3 2 199 298 338 pi_px
+xp_ic_inst13 1 0 3 2 200 299 338 pi_px
+xp_ic_inst12 1 0 3 2 201 300 338 pi_px
+xp_ic_inst11 1 0 3 2 202 301 338 pi_px
+xp_ic_inst10 1 0 3 2 203 302 338 pi_px
+xp_ic_inst24 1 0 3 2 188 287 338 pi_px
+xp_ic_inst25 1 0 3 2 187 286 338 pi_px
+xp_ic_inst26 1 0 3 2 186 285 338 pi_px
+xp_ic_inst27 1 0 3 2 185 284 338 pi_px
+xp_ic_inst28 1 0 3 2 184 283 338 pi_px
+xp_ic_inst29 1 0 3 2 183 282 338 pi_px
+xp_vssick_0 1 0 3 2 340 338 pvssick_px
+xp_ic_inst23 1 0 3 2 189 288 338 pi_px
+xp_ic_inst22 1 0 3 2 190 289 338 pi_px
+xp_ic_inst21 1 0 3 2 191 290 338 pi_px
+xp_ic_inst20 1 0 3 2 192 291 338 pi_px
+xp_ic_inst30 1 0 3 2 181 280 338 pi_px
+xp_ic_inst31 1 0 3 2 180 279 338 pi_px
+xp_vddeck_0 1 0 3 2 340 338 pvddeck_px
+xmem_stw_0 1 0 3 2 5 73 338 po_px
+xmem_stb_0 1 0 3 2 6 74 338 po_px
+xif_adr_19 1 0 3 2 260 161 338 po_px
+xif_adr_18 1 0 3 2 261 162 338 po_px
+xif_adr_17 1 0 3 2 262 163 338 po_px
+xif_adr_16 1 0 3 2 263 164 338 po_px
+xif_adr_15 1 0 3 2 264 165 338 po_px
+xif_adr_14 1 0 3 2 265 166 338 po_px
+xif_adr_13 1 0 3 2 266 167 338 po_px
+xif_adr_12 1 0 3 2 267 168 338 po_px
+xif_adr_11 1 0 3 2 268 169 338 po_px
+xif_adr_10 1 0 3 2 269 170 338 po_px
+.ends arm_chip_r
