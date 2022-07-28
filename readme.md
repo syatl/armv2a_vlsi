@@ -4,7 +4,7 @@
 [Samy Attal](https://github.com/Samy-Attal) \
 [Kevin Lastra](https://github.com/kevinlastra)
 ## Description 
-The goal of this project is to describe in VHDL the "user" execution mode of a processor implementing the ARMv2a instruction set and to go as far as the synthesis and design of the chip masks.
+This project aims to design in VHDL the "user" execution mode of a processor implementing the ARMv2a instruction set, to synthesize, and to generate its IC layout.
 
 ## Outils
 - Compiler : [GHDL](https://github.com/ghdl/ghdl)
@@ -56,4 +56,4 @@ We visualize the execution of the instructions with gtkwave:
 The mask design of the chip below is not optimized (being pad limited), an optimization at the level of the pads is required.
 ![plot](./images/chip.png?raw=true "chip")
 
-The implementation of other execution modes (FIQ, IRQ, Supervisor...), the implementation of multiplications as well as the addition of an instruction cache and a data cache are also elements that can be considered in order to optimize the potential used surface of the processor on the silicon. 
+The IC layout pad limited. In order to optimize the silicon area we can imagine adding other execution modes (FIR, IRQ, Supervisor...) as well as integrating the caches.
