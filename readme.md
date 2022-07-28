@@ -1,5 +1,8 @@
 # ARMv2a VLSI Project
 ***
+### Made by
+[Samy Attal](https://github.com/Samy-Attal) \
+[Kevin Lastra](https://github.com/kevinlastra)
 ## Description 
 The goal of this project is to describe in VHDL the "user" execution mode of a processor implementing the ARMv2a instruction set and to go as far as the synthesis and design of the chip masks.
 
